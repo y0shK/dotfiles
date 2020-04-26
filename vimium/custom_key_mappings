@@ -1,0 +1,7 @@
+# Insert your preferred key mappings here.
+map , scrollUp
+map . scrollDown
+map z restoreTab
+map s previousTab
+map d nextTab
+map x removeTab
