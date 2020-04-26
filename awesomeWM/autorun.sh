@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/bash
 
 function run {
   if ! pgrep -f $1 ;
@@ -7,5 +7,5 @@ function run {
   fi
 }
 
-run compton --config ~/.config/compton.conf
+run compton --config /home/yash/.config/compton.conf
 
